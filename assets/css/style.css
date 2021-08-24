@@ -1,0 +1,108 @@
+.logo img{
+    width: 9rem;
+}
+
+.block_input {
+    width: 40%;
+}
+
+.send {
+    float: right;
+}
+@media (max-width: 576px) { 
+    .aside {
+        display: none;
+        visibility: hidden;
+    }
+
+    .pse {
+        display: block;
+    }
+
+    .logo{
+        margin: 0 auto;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .logo img{
+        width: 10rem;
+    }
+
+    .form {
+        position: absolute;
+    }
+
+    .block_input {
+        width: 100%;
+
+        flex-basis: auto;
+    }
+
+    .input {
+        display: block;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 768px) { 
+
+    .logo{
+        margin: 0 auto;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .logo img{
+        width: 10rem;
+    }
+
+    .form {
+        position: absolute;
+    }
+
+    .block_input {
+        width: 100%;
+
+        flex-basis: auto;
+    }
+
+    .input {
+        display: block;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 992px) { 
+
+    .logo{
+        margin: 0 auto;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .logo img{
+        width: 10rem;
+    }
+
+    .form {
+        position: absolute;
+    }
+
+    .block_input {
+        width: 100%;
+        flex-basis: auto;
+    }
+
+    .input {
+        display: block;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 1200px) { 
+
+}
